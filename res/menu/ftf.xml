@@ -13,11 +13,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    
+<menu xmlns:android="http://schemas.android.com/apk/res/android">   
     <item
-            android:id="@+id/take_picture"
-            android:title="@string/take_picture"
-            android:icon="@drawable/ic_play" />
-    
+            android:id="@+id/retake_picture"
+            android:title="@string/retake"
+            android:icon="@drawable/ic_play" />    
 </menu>

@@ -2,9 +2,18 @@
 <resources>
 
     <style name="DudePicture">
-        <item name="android:layout_width">55px</item>
-        <item name="android:layout_height">55px</item>
+        <item name="android:layout_width">350px</item>
+        <item name="android:layout_height">350px</item>
         <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="DudeName">
+        <item name="android:layout_width">300px</item>
+        <item name="android:layout_height">75px</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">-17px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">25px</item>
     </style>
 
     <style name="MenuTheme" parent="@android:style/Theme.DeviceDefault">

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">FTF</string>
-    <string name="find_fucker">Find this Dude</string>
-    <string name="take_picture">Take Picture!</string>    
+    <string name="app_menu">Menu</string>
+    <string name="find_this_dude">Find this Dude</string>
+    <string name="retake">Retake</string>    
 </resources>

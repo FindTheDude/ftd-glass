@@ -20,17 +20,21 @@
     android:layout_height="match_parent"
     android:background="@color/black" >
 
-    <ImageView
-        android:id="@+id/picture"
-        style="@style/DudePicture"
-        android:src="@drawable/ic_play" />
-
-    <TextView
-        android:id="@+id/name_information"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="-10px"
-        android:textSize="160px" />
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/name_information"
+            style="@style/DudeName" />
+
+        <ImageView
+            android:id="@+id/picture"
+            style="@style/DudePicture"
+            android:src="@drawable/ic_play" />
+        
+    </LinearLayout>
 
 </FrameLayout>
