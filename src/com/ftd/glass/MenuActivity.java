@@ -1,7 +1,6 @@
-package com.ftd;
+package com.ftd.glass;
 
 import android.app.Activity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
